@@ -1,0 +1,113 @@
+import React from "react";
+
+export default function TinotendaPortfolio() {
+  return (
+    <div className="min-h-screen bg-gradient-to-b from-gray-900 to-black text-white font-sans">
+      <div className="max-w-5xl mx-auto p-6">
+
+        {/* Hero Section */}
+        <section className="text-center mb-16">
+          <h1 className="text-5xl font-bold">Tinotenda Chitanda</h1>
+          <p className="text-xl text-gray-400 mt-3">
+            Learning Technologist | Sales & Client Success Specialist | LLB Candidate
+          </p>
+          <p className="italic text-teal-400 mt-4">"Bridging Law, Learning, and Business to Build the Future."</p>
+          <a
+            href="/Tinotenda_Chitanda_CV.pdf"
+            className="inline-block mt-6 px-6 py-2 border border-teal-400 text-teal-400 rounded hover:bg-teal-400 hover:text-black transition"
+            download
+          >
+            Download CV
+          </a>
+        </section>
+
+        {/* About Section */}
+        <section className="mb-14">
+          <h2 className="text-3xl font-semibold border-b border-gray-700 pb-2 mb-4">About Me</h2>
+          <p className="text-gray-300 leading-relaxed">
+            I am a results-driven professional at the intersection of law, education, and technology. Currently pursuing my LLB at the University of the Western Cape, I’ve built a foundation across learning platforms, sales engineering, and client success.
+            <br /><br />
+            I’ve helped global edtech companies like Construct Education and FutureLearn deliver high-quality learning experiences, while also developing sales strategies and stakeholder partnerships at Evoxlink Telecommunications. I bring energy, precision, and purpose to every project I join.
+          </p>
+        </section>
+
+        {/* Experience Section */}
+        <section className="mb-14">
+          <h2 className="text-3xl font-semibold border-b border-gray-700 pb-2 mb-4">Experience</h2>
+          <div className="space-y-6">
+            <div>
+              <h3 className="text-xl font-semibold">Learning Technologist / Instructure L1 Engineer</h3>
+              <p className="text-gray-400">Construct Education · 2020–2023</p>
+              <p className="text-gray-300">Canvas LMS builds, technical support, and quality control leadership.</p>
+            </div>
+            <div>
+              <h3 className="text-xl font-semibold">Learning Technologist</h3>
+              <p className="text-gray-400">FutureLearn · Project-based</p>
+              <p className="text-gray-300">Optimized course delivery and student engagement.</p>
+            </div>
+            <div>
+              <h3 className="text-xl font-semibold">Sales Engineer</h3>
+              <p className="text-gray-400">Evoxlink Telecommunications · 2018–2020</p>
+              <p className="text-gray-300">Developed partnerships, led sales growth, and secured tenders.</p>
+            </div>
+          </div>
+        </section>
+
+        {/* Skills Section */}
+        <section className="mb-14">
+          <h2 className="text-3xl font-semibold border-b border-gray-700 pb-2 mb-4">Skills</h2>
+          <ul className="grid grid-cols-2 gap-2 text-gray-300 list-disc list-inside">
+            <li>Canvas, FutureLearn, EDx, Docebo</li>
+            <li>Salesforce, Zendesk, Freshdesk</li>
+            <li>Client Relationship Management</li>
+            <li>Quality Control & Technical Support</li>
+            <li>Team Leadership & Stakeholder Engagement</li>
+            <li>Systems Administration</li>
+            <li>Content Management</li>
+            <li>Documentation & Reporting</li>
+          </ul>
+        </section>
+
+        {/* Education Section */}
+        <section className="mb-14">
+          <h2 className="text-3xl font-semibold border-b border-gray-700 pb-2 mb-4">Education</h2>
+          <div className="text-gray-300">
+            <p><strong>University of the Western Cape (UWC)</strong></p>
+            <p>LLB Candidate · 2022–2026</p>
+            <p>Member, Law Society | Deputy Secretary General, Street Law (2024)</p>
+            <br />
+            <p><strong>Blouberg International High School</strong></p>
+            <p>2012–2016 · Merit Honor Roll, 4 A’s Achieved</p>
+          </div>
+        </section>
+
+        {/* References Section */}
+        <section className="mb-14">
+          <h2 className="text-3xl font-semibold border-b border-gray-700 pb-2 mb-4">References</h2>
+          <ul className="text-gray-300">
+            <li>
+              <strong>Sone Thasi</strong> – Team Lead, Construct Education<br />
+              sthasi@noodle.com · 078-856-4263
+            </li>
+            <li className="mt-4">
+              <strong>Elvis Kadakure</strong> – MD, Evoxlink Telecommunications<br />
+              elvice.kadakure@gmail.com · 078-015-3115
+            </li>
+          </ul>
+        </section>
+
+        {/* Contact Section */}
+        <section className="text-center">
+          <h2 className="text-3xl font-semibold mb-4">Get in Touch</h2>
+          <p className="text-gray-300 mb-2">📧 livas.msanu@gmail.com</p>
+          <p className="text-gray-300 mb-2">📞 074-438-7730</p>
+          <p className="text-teal-400"><a href="https://www.linkedin.com/in/tinotendachitanda" target="_blank" rel="noopener noreferrer">Connect on LinkedIn</a></p>
+        </section>
+
+        <footer className="text-center text-gray-500 text-sm mt-16">
+          <p>&copy; {new Date().getFullYear()} Tinotenda Chitanda · Made with passion and purpose.</p>
+        </footer>
+      </div>
+    </div>
+  );
+}
